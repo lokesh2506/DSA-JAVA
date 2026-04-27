@@ -1,6 +1,7 @@
 import java.util.*;
 public class PalindromeNumber {
     public static void palindromeCheck(int n){
+        //121 -> 121
         int ogValue = n, reversedValue = 0;
 
         while(n>0) {//n!=0
